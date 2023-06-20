@@ -1,0 +1,114 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 15px;
+    background-color: #FDF8F5;
+    color: #4F4846;
+  }
+  
+  h1,
+  h2 {
+    margin: 15px;
+  }
+  
+  main {
+    padding: 55px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 15px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FDF8F5;
+  }
+  
+  header,
+  footer {
+    height: 55px;
+    width: 100%;
+    line-height: 55px;
+    background-color: #266150;
+  }
+  
+  header {
+    position: fixed;
+    border-bottom: 5px solid red;
+  }
+  
+  footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 5px solid #4F4846;
+    color: #FDF8F5;    
+  }
+  
+  figure {
+    margin-bottom: 35px;
+  }
+  
+  img {
+    display: block;
+    margin: 15px auto;
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 15px 5px 35px 5px;
+    border-top: 3px solid red;
+    background-color:  red;
+  }
+  
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 495x;
+    padding: 5px;
+    border: 5px solid #DDAF94;
+    border-radius: 15px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 95px;
+  }
+    
+  input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+    
+  button {
+    height: 35px;
+    width: 115px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+  }
+   
+  /* Class Selectors */
+  .text-middle {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
