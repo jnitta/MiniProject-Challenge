@@ -1,0 +1,53 @@
+/* Reset CSS */
+
+/* Box sizing */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove default margin and padding */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove list styles */
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  /* Remove hyperlink styles */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Remove table border spacing */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Optionally add more resets as needed */
+  

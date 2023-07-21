@@ -1,0 +1,40 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  
+  .text-right {
+    flex: auto;
+    text-align: right;
+  }
+
+
+  .qwePICS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right; /* Centers the image containers horizontally */
+    margin: 30px;
+  }
+
+  .qwe1 {
+    display: flex;
+    flex: 0 0 calc(80% - 20px);
+    margin: 5px;
+  }
+
+  .qwe2, .qwe3, .qwe4, .qwe5 {
+    display: flex;
+    flex: 0 0 calc(40% - 20px);
+    margin: 5px;
+  }
+  
+  .qwePICS img {
+    width: 100%;
+    height: auto;
+    filter: blur(5px);
+  }
+  
+  .qwe1, .qwe2, .qwe3, .qwe4, .qwe5 :hover {
+    transition: 1s ease-out;
+
+  }
